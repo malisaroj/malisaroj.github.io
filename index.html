@@ -3,34 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Malisaroj's Academic Portfolio">
-    <title>Malisaroj's Portfolio</title>
+    <meta name="description" content="Portfolio of Saroj Mali - Software Engineer and Researcher">
+    <title>Saroj Mali | Portfolio</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #ffffff;
-            color: #333333;
-            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
         }
         header {
-            background: #0044cc;
+            background-color: #0044cc;
             color: white;
-            padding: 20px;
+            padding: 20px 0;
             text-align: center;
         }
         header h1 {
             margin: 0;
             font-size: 2.5em;
         }
+        header p {
+            font-size: 1.2em;
+        }
         nav {
+            margin: 20px 0;
             text-align: center;
-            margin-top: 10px;
         }
         nav a {
-            margin: 0 15px;
             color: white;
+            margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
         }
@@ -38,26 +40,34 @@
             text-decoration: underline;
         }
         .container {
-            max-width: 1000px;
-            margin: 20px auto;
-            padding: 0 20px;
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
         section {
             margin-bottom: 40px;
         }
         section h2 {
+            color: #0044cc;
             border-bottom: 2px solid #0044cc;
             padding-bottom: 5px;
-            color: #0044cc;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
         }
         footer {
             background: #0044cc;
             color: white;
             text-align: center;
             padding: 10px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            margin-top: 30px;
         }
         a {
             color: #0044cc;
@@ -70,10 +80,13 @@
 </head>
 <body>
     <header>
-        <h1>Malisaroj's Portfolio</h1>
+        <h1>Saroj Mali</h1>
+        <p>Software Engineer | Researcher | Innovator</p>
         <nav>
             <a href="#about">About</a>
-            <a href="#research">Research</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
             <a href="#publications">Publications</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -82,17 +95,45 @@
         <section id="about">
             <h2>About Me</h2>
             <p>
-                I am <strong>Malisaroj</strong>, a researcher specializing in edge computing, federated learning, and real-time applications. 
-                My work focuses on optimizing resource allocation and latency reduction in edge computing environments.
+                I am Saroj Mali, a resource-oriented software engineering professional with a strong foundation in edge computing, federated learning, and machine learning. I bring exceptional problem-solving and troubleshooting skills, with a keen ability to adapt to new challenges.
             </p>
         </section>
-        <section id="research">
-            <h2>Research Interests</h2>
+        <section id="skills">
+            <h2>Technical Skills</h2>
             <ul>
-                <li>Edge Computing and Federated Learning</li>
-                <li>Dynamic Resource Scheduling</li>
-                <li>Real-Time Applications in IoT</li>
-                <li>Intrusion Detection Systems</li>
+                <li><strong>Programming Languages:</strong> Python (NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch), JavaScript (Vue.js), PHP (WordPress)</li>
+                <li><strong>Web Development:</strong> Django, Vue.js</li>
+                <li><strong>Database Management:</strong> MySQL, Redis</li>
+                <li><strong>Tools & Technologies:</strong> Git, WordPress</li>
+                <li><strong>Languages:</strong> English (Fluent), Nepali (Native), Hindi (Fluent), Chinese (Intermediate)</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>Machine Learning Engineer, Intern</strong> - OpenGenus Foundation (Apr 2022 - Aug 2022)
+                    <ul>
+                        <li>Explored and wrote articles on topics like Conditional GAN and Person Re-Identification applications.</li>
+                        <li>Collaborated on research projects using TensorFlow and Keras.</li>
+                        <li>Designed experiments to evaluate machine learning models.</li>
+                    </ul>
+                </li>
+                <li><strong>Software Engineer</strong> - Codev Creations (Oct 2018 - Aug 2021)
+                    <ul>
+                        <li>Developed and deployed web pages using HTML5, CSS3, WordPress, and VueJS.</li>
+                        <li>Practiced agile development methodologies.</li>
+                        <li>Enhanced system architecture and implemented new features.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Academic Projects</h2>
+            <ul>
+                <li><strong>Stock Market Prediction System:</strong> Developed a web application using Python/Django and MySQL, implementing CNN models for predictions.</li>
+                <li><strong>AutoLife:</strong> Built a desktop application for managing watchlists of movies and TV series using Python and PyQt.</li>
+                <li><strong>GIC Expats:</strong> WeChat Mini program to guide expats in China and aid in language learning.</li>
+                <li><strong>Image Classifier:</strong> Built a Python application with PyTorch to train and predict image classifications.</li>
             </ul>
         </section>
         <section id="publications">
@@ -100,20 +141,18 @@
             <ul>
                 <li><strong>Mali, S.</strong> (2024). "Assessing the Effectiveness of Multi-Factor Authentication in Cloud-Based Big Data Environments." <em>Internet of Things and Cloud Computing</em>.</li>
                 <li><strong>Mali, S., Mali, N., & Zeng, F.</strong> (2024). "Edge Computing with Federated Learning for Early Detection of Citric Acid Overdose."</li>
-                <li><strong>Mali, S., & Zeng, F.</strong> (2024). "Dynamic Resource Allocation and Task Scheduling for Agricultural IoT Applications."</li>
+                <li><strong>Zeng, F., & Mali, S.</strong> (2024). "Adaptive Real-Time Phone Call Translation Using Hybrid Cloud-Edge Processing."</li>
             </ul>
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p>
-                Email: <a href="mailto:malisaroj@example.com">malisaroj@example.com</a><br>
-                GitHub: <a href="https://github.com/malisaroj" target="_blank">github.com/malisaroj</a><br>
-                LinkedIn: <a href="https://www.linkedin.com/in/malisaroj/" target="_blank">linkedin.com/in/malisaroj</a>
-            </p>
+            <p>Email: <a href="mailto:malisaroj@icloud.com">malisaroj@icloud.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/malisaroj" target="_blank">linkedin.com/in/malisaroj</a></p>
+            <p>GitHub: <a href="https://github.com/malisaroj" target="_blank">github.com/malisaroj</a></p>
         </section>
     </div>
     <footer>
-        <p>&copy; 2024 Malisaroj. All rights reserved.</p>
+        <p>&copy; 2024 Saroj Mali. All rights reserved.</p>
     </footer>
 </body>
 </html>
